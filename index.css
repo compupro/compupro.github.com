@@ -53,7 +53,7 @@ header {
     border-radius: 5px;
     background-color: #2b3942;
     top: 0;
-    transition: box-shadow 0.4s;
+    transition: box-shadow 0.3s;
     margin: 5px;
     position: relative;
 }
