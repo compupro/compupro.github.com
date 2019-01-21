@@ -54,6 +54,7 @@ header {
     transition: box-shadow 0.3s;
     margin: 5px;
     position: relative;
+    cursor: pointer;
 }
 
 .project-card:hover {
