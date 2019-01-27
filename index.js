@@ -1,5 +1,5 @@
 var header_blurbs = [
-    "Programming projects related to linguistics, gaming, etc.",
+    "Programming projects related to linguistics, gaming, and anime.",
     "Wired projects for wired people",
     "By Compupro",
     "All written Compuprofessionally",
@@ -14,6 +14,7 @@ var header_blurbs = [
     "Make sure you allow 4th, 5th, and 6th party cookies.",
     "I made this webpage while listening to music from the 90s Weather Channel",
     "Next project: a neural network that sorts pictures of Waldo and barber shop poles.",
+    "Now with more anime!",
     "I'm trying to think of witty things to say here but it's hard!",
     "You've reached the last blurb! You must really like my webpage!",
 ];
