@@ -37,6 +37,32 @@ header {
     margin: 0;
 }
 
+.hcenter-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-link-area {
+    background-color: #2b3942;
+    position: relative;
+    display: inline-block;
+    top: -20px;
+    text-align: center;
+    padding: 2px 10px 0 20px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.30);
+    border-radius: 5px;
+}
+
+.icon-link {
+    height: 24px;
+    fill: rgba(255, 255, 255, .6);
+    margin: 5px 10px;
+}
+
+.icon-link:hover {
+    fill: rgba(255, 255, 255, .9);
+}
+
 .project-area {
     display: flex;
     flex-wrap: wrap;
