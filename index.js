@@ -13,7 +13,7 @@ var header_blurbs = [
     "Because seven ate nine!",
     "Make sure you allow 4th, 5th, and 6th party cookies",
     "SVGs are hard to work with in HTML!",
-    "I once added a picture of a chewing claymation character as a page as a prank",
+    "I once added a picture of a chewing claymation character as a page for a prank",
     "I made this webpage while listening to music from the 90s Weather Channel",
     "It took me half an hour to get the navbar below to display correctly. Not worth it.",
     "Next project: a neural network that sorts pictures of Waldo and barber shop poles",
@@ -32,9 +32,9 @@ if (isNaN(visits)){
 visits = parseInt(document.cookie.replace(/(?:(?:^|.*;\s*)visits\s*\=\s*([^;]*).*$)|^.*$/, "$1"));
 document.getElementById("header-blurb").innerHTML = header_blurbs[visits];
 
-document.getElementById("github-icon").addEventListener("mouseover", function(){document.getElementById("header-blurb").innerHTML = "GitHub, where all my code is left to rot";});
-document.getElementById("deviantart-icon").addEventListener("mouseover", function(){document.getElementById("header-blurb").innerHTML = "Deviantart, where I am neglecting to post anything";});
-document.getElementById("discord-icon").addEventListener("mouseover", function(){document.getElementById("header-blurb").innerHTML = "Discord, where I am komminland#8796";});
+document.getElementById("github-icon").addEventListener("mouseover", function(){document.getElementById("header-blurb").innerHTML = "Full of ancient runes";});
+document.getElementById("deviantart-icon").addEventListener("mouseover", function(){document.getElementById("header-blurb").innerHTML = "Pictures worth a couple of words";});
+document.getElementById("discord-icon").addEventListener("mouseover", function(){document.getElementById("header-blurb").innerHTML = "Talk to me: komminland#8796";});
 
 var iconLinks = document.getElementsByClassName("icon-link");
 for (var i = 0; i < iconLinks.length; i++) {
